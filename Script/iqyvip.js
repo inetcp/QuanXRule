@@ -8,7 +8,7 @@ QX:
 
 var body = $response.body;
 
-// {"msg":"不是会员", "code":"Q00305"}
+// {"msg":"不是会员","code":"Q00305"}
 let obj = JSON.parse(body);
 obj['msg'] = 'OK';
 obj['code'] = 'Q00000';
